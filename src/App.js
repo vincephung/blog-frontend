@@ -9,7 +9,7 @@ import  {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/blog-frontend">
       <Nav/>
       <Switch>
           <Route exact path="/home" component={Home}/>

@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+
 
 const PostPreview = (props) =>{
     return(
@@ -11,7 +13,9 @@ const PostPreview = (props) =>{
                 <Card.Text>
                     Posted on: {props.timestamp} | Last Edit : {props.lastUpdate}
                 </Card.Text>
-                <Button variant="link" href={`/posts/${props.id}`} >View post</Button> 
+                <Button variant="link" >
+                    <Link to={`/posts/${props.id}`} ></Link>
+                </Button> 
             </Card.Body>
         </Card>
     )
