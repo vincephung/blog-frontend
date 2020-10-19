@@ -14,7 +14,7 @@ const PostPreview = (props) =>{
                     Posted on: {props.timestamp} | Last Edit : {props.lastUpdate}
                 </Card.Text>
                 <Button variant="link" >
-                    <Link to={`/posts/${props.id}`} ></Link>
+                    <Link to={`/posts/${props.id}`}>View post</Link>
                 </Button> 
             </Card.Body>
         </Card>
