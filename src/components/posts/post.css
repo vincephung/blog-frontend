@@ -37,3 +37,8 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+.post-img {
+  width: 50%;
+  height: 50%;
+}
