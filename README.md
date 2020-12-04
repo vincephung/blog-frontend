@@ -1,4 +1,5 @@
 # Blog user front-end view
+This is the main website that contains the blog posts and is open to the public to view.
 
 ## Description
 This is a full stack blog built using the MERN stack that uses the REST API back end that I created.
